@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.alibaba.webx</groupId>
     <artifactId>webCheck</artifactId>
-    <name>My Simple Webx Application</name>
+    <name>webCheck</name>
     <packaging>war</packaging>
     <version>1.0</version>
     <properties>
