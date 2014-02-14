@@ -19,7 +19,6 @@ package com.alibaba.webx.webCheck.app1.module.action;
 
 import com.alibaba.citrus.turbine.Navigator;
 import com.alibaba.citrus.turbine.dataresolver.FormGroup;
-
 import com.alibaba.webx.webCheck.app1.Visitor;
 
 public class RegisterAction {

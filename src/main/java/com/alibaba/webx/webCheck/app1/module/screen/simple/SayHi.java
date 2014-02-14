@@ -18,6 +18,7 @@
 package com.alibaba.webx.webCheck.app1.module.screen.simple;
 
 import java.io.PrintWriter;
+
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;

@@ -17,16 +17,18 @@
 
 package com.alibaba.webx.webCheck.app1.module.screen.simple;
 
-import static com.alibaba.citrus.util.ObjectUtil.*;
-import static com.alibaba.citrus.util.StringEscapeUtil.*;
-import static org.apache.commons.lang.StringUtils.*;
+import static com.alibaba.citrus.util.ObjectUtil.defaultIfNull;
+import static com.alibaba.citrus.util.StringEscapeUtil.escapeURL;
+import static org.apache.commons.lang.StringUtils.trimToNull;
 
 import java.io.PrintWriter;
+
 import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
 
 import com.alibaba.citrus.service.requestcontext.buffered.BufferedRequestContext;
 import com.alibaba.citrus.turbine.dataresolver.Param;
-import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * 动态生成下载文件。
